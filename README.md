@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+<img src="./src/icons/gmt3.png" height="240px">
 
-<img src="./src/icons/gmt3.png">
+
+# Getting Started with GMT3 Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
