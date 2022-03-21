@@ -16,23 +16,23 @@ function App() {
         </div>
         {/* center */}
         <div className="flex  items-center ">
-          <a href="#" className="inline-block p-2 mr-2">
+          <a href="/#" className="inline-block p-2 mr-2">
             About
           </a>
-          <a href="#" className="inline-block p-2 mr-2">
+          <a href="/#" className="inline-block p-2 mr-2">
             Services
           </a>
-          <a href="#" className="inline-block p-2 mr-2">
+          <a href="/#" className="inline-block p-2 mr-2">
             Technologies
           </a>
-          <a href="#" className="inline-block p-2">
+          <a href="/#" className="inline-block p-2">
             Process
           </a>
         </div>
         {/* right */}
         <div>
           <a
-            href="#"
+            href="/#"
             className="inline-block py-2 px-4 rounded-xl bg-transparent border border-gray-600"
           >
             Hire us!
@@ -54,13 +54,13 @@ function App() {
             </p>
             <p className="mb-6">your concept the wings it deserves</p>
             <a
-              href="#"
+              href="/#"
               className="inline-block py-3 px-6 text-lg rounded-xl bg-purple-700 text-purple-300 mr-3"
             >
               Get in touch
             </a>
             <a
-              href="#"
+              href="/#"
               className="inline-block py-3 px-6 text-lg rounded-xl bg-transparent border border-gray-600"
             >
               Learn more
@@ -311,7 +311,7 @@ function App() {
               <div className="rounded-full bg-gray-300 h-48 w-48 mb-5">
                 <img
                   className="object-center object-cover rounded-full h-48 w-48"
-                  src="https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445__340.jpg"
+                  src="https://avatars.githubusercontent.com/u/41738925?v=4"
                   alt=""
                   srcset=""
                 />
@@ -323,7 +323,7 @@ function App() {
               <div className="rounded-full bg-gray-300 h-48 w-48 mb-5">
                 <img
                   className="object-center object-cover rounded-full h-48 w-48"
-                  src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166__340.jpg"
+                  src="https://avatars.githubusercontent.com/u/62421300?v=4"
                   alt=""
                   srcset=""
                 />
@@ -441,7 +441,7 @@ function App() {
       <footer className="p-4 bg-white   dark:bg-gray-800">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
+            <a href="/#" className="flex items-center">
               <img
                 src="https://cdn3.iconfinder.com/data/icons/web-development-129/128/Web_development-11-128.png"
                 className="mr-3 h-8"
@@ -459,7 +459,7 @@ function App() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/#" className="hover:underline">
                     GMT3
                   </a>
                 </li>
@@ -479,12 +479,12 @@ function App() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline ">
+                  <a href="/#" className="hover:underline ">
                     Github
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="/#" className="hover:underline">
                     Discord
                   </a>
                 </li>
@@ -496,12 +496,12 @@ function App() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/#" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="/#" className="hover:underline">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -513,14 +513,14 @@ function App() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{' '}
-            <a href="#" className="hover:underline">
+            <a href="/#" className="hover:underline">
               GMT3
             </a>
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="/#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -537,7 +537,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="#"
+              href="/#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -554,7 +554,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="#"
+              href="/#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -567,7 +567,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="#"
+              href="/#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -584,7 +584,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="#"
+              href="/#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
