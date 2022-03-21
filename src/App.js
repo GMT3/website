@@ -1,5 +1,6 @@
 import './App.css';
 import heroImg from './heroImage.png';
+import gmt3Img from './icons/gmt3.png';
 
 function App() {
   return (
@@ -9,9 +10,9 @@ function App() {
         {/* left */}
         <div className="">
           <img
-            src="https://cdn3.iconfinder.com/data/icons/web-development-129/128/Web_development-11-128.png"
+            src={gmt3Img}
             alt=""
-            width={50}
+            width={60}
           />
         </div>
         {/* center */}
