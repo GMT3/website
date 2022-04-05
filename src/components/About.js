@@ -41,10 +41,9 @@ const About = (props) => {
             </div>
             <h3 className="font-bold mb-5">Discovery Phase</h3>
             <p className="break-words px-5 md:w-3/4 text-left">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-              placeat accusantium esse, libero quia blanditiis debitis, incidunt
-              eius, modi aperiam temporibus suscipit voluptatem? Ipsam ipsum
-              sapiente dolor maxime architecto eos.
+              Discovery phase is a bridge between a theoretical concept of the product and its technical realization. 
+              During the discovery phase, we identify the needs of the client, end-user, and stakeholders, 
+              as well as define the strong and weak sides of the product.
             </p>
           </div>
           <div className="flex flex-col items-center mt-5">
@@ -64,10 +63,8 @@ const About = (props) => {
             </div>
             <h3 className="font-bold mb-5">Product Design</h3>
             <p className="break-words px-5 md:w-3/4 text-left">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-              placeat accusantium esse, libero quia blanditiis debitis, incidunt
-              eius, modi aperiam temporibus suscipit voluptatem? Ipsam ipsum
-              sapiente dolor maxime architecto eos.
+              Product design is the process of identifying a market opportunity, clearly defining the problem, 
+              developing a proper solution for that problem and validating the solution with real users.
             </p>
           </div>
           <div className="flex flex-col items-center mt-5">
@@ -87,10 +84,8 @@ const About = (props) => {
             </div>
             <h3 className="font-bold mb-5">Software Development</h3>
             <p className="break-words px-5 md:w-3/4 text-left">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-              placeat accusantium esse, libero quia blanditiis debitis, incidunt
-              eius, modi aperiam temporibus suscipit voluptatem? Ipsam ipsum
-              sapiente dolor maxime architecto eos.
+              Software development is the process of conceiving, specifying, designing, programming, documenting, testing, 
+              and bug fixing involved in creating and maintaining applications, frameworks, or other software components.
             </p>
           </div>
         </div>
