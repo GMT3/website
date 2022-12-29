@@ -68,7 +68,7 @@ const Team = (props) => {
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
                 <img
                   className="object-center object-cover rounded-full h-20 w-20 md:h-48 md:w-48"
-                  src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg"
+                  src="https://avatars.githubusercontent.com/u/91533100?s=400&u=22edfc635bce2664d7492e48a44db0798785e0c1&v=4"
                   alt=""
                   srcset=""
                 />
