@@ -25,7 +25,7 @@ const Team = (props) => {
                   srcset=""
                 />
               </div>
-              <h3 className="text-2xl">John Doe</h3>
+              <h3 className="text-2xl">Martin Kululanga</h3>
               <h3 className="text-purple-500">Senior Developer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
@@ -37,7 +37,7 @@ const Team = (props) => {
                   srcset=""
                 />
               </div>
-              <h3 className="text-2xl">John Doe</h3>
+              <h3 className="text-2xl">Tinga Chingeni</h3>
               <h3 className="text-purple-500">Senior Developer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
@@ -61,7 +61,7 @@ const Team = (props) => {
                   srcset=""
                 />
               </div>
-              <h3 className="text-2xl">John Doe</h3>
+              <h3 className="text-2xl">Takondwa Ndawala</h3>
               <h3 className="text-purple-500">Senior Developer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
