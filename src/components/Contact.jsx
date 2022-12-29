@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Contact = (props) => {
+const Contact = ({ refs }) => {
   return (
     <>
-      <section className="pb-20">
+      <section className="pb-20" ref={refs} id="contact">
         <div className="w-full md:px-32 py-11 flex flex-col justify-center items-center   ">
           <div className="p-3 w-2/3 break-words text-center">
             <h3 className="text-2xl font-semibold">Contact Us</h3>

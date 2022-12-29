@@ -1,9 +1,9 @@
 import React from 'react';
 
-const About = (props) => {
+const About = ({ refs }) => {
   return (
     <>
-      <section>
+      <section ref={refs} id="about">
         <div className="md:px-32 md:py-11 flex flex-col md:justify-center items-center mb-5 ">
           <h3 className="text-purple-500 uppercase font-bold">Our Vision</h3>
           <div className="p-3 md:w-2/3 md:break-words  text-center">
@@ -41,8 +41,9 @@ const About = (props) => {
             </div>
             <h3 className="font-bold mb-5">Discovery Phase</h3>
             <p className="break-words px-5 md:w-3/4 text-left">
-              Discovery phase is a bridge between a theoretical concept of the product and its technical realization. 
-              During the discovery phase, we identify the needs of the client, end-user, and stakeholders, 
+              Discovery phase is a bridge between a theoretical concept of the
+              product and its technical realization. During the discovery phase,
+              we identify the needs of the client, end-user, and stakeholders,
               as well as define the strong and weak sides of the product.
             </p>
           </div>
@@ -63,8 +64,9 @@ const About = (props) => {
             </div>
             <h3 className="font-bold mb-5">Product Design</h3>
             <p className="break-words px-5 md:w-3/4 text-left">
-              Product design is the process of identifying a market opportunity, clearly defining the problem, 
-              developing a proper solution for that problem and validating the solution with real users.
+              Product design is the process of identifying a market opportunity,
+              clearly defining the problem, developing a proper solution for
+              that problem and validating the solution with real users.
             </p>
           </div>
           <div className="flex flex-col items-center mt-5">
@@ -84,8 +86,10 @@ const About = (props) => {
             </div>
             <h3 className="font-bold mb-5">Software Development</h3>
             <p className="break-words px-5 md:w-3/4 text-left">
-              Software development is the process of conceiving, specifying, designing, programming, documenting, testing, 
-              and bug fixing involved in creating and maintaining applications, frameworks, or other software components.
+              Software development is the process of conceiving, specifying,
+              designing, programming, documenting, testing, and bug fixing
+              involved in creating and maintaining applications, frameworks, or
+              other software components.
             </p>
           </div>
         </div>

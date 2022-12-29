@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import gmt3Img from '../icons/gmt3.png';
 
-const Navbar = (props) => {
+const Navbar = ({ handleClick }) => {
   const [open, setOpen] = useState(false);
   const handleMenu = () => {
     setOpen(!open);
   };
+
   return (
     <>
       <nav className="bg-white shadow-lg md:shadow-none">
@@ -60,49 +61,73 @@ const Navbar = (props) => {
             <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
                 <a
-                  href="/#"
+                  href="/"
                   class="block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                   // aria-current="page"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick('home');
+                  }}
                 >
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/"
                   class="block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick('about');
+                  }}
                 >
                   About
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
-                  href="/#"
+                  href="/"
                   class="block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick('service');
+                  }}
                 >
                   Services
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="/#"
                   class="block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick('tech');
+                  }}
                 >
                   Technologies
                 </a>
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/"
                   class="block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick('team');
+                  }}
                 >
-                  Pricing
+                  Team
                 </a>
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/"
                   class="block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick('contact');
+                  }}
                 >
                   Contact
                 </a>
@@ -114,6 +139,10 @@ const Navbar = (props) => {
             <a
               href="/#"
               className="inline-block mr-5 py-2 md:px-4 md:rounded-xl bg-transparent md:border border-gray-600 hover:bg-purple-600 hover:text-white hover:border-purple-600"
+              onClick={(e) => {
+                e.preventDefault();
+                handleClick('contact');
+              }}
             >
               Hire us!
             </a>

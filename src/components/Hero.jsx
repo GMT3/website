@@ -1,10 +1,10 @@
 import React from 'react';
 import heroImg from '../images/heroImage.png';
 
-const Hero = () => {
+const Hero = ({ handleClick }) => {
   return (
     <>
-      <section>
+      <section id="home">
         <div className="flex flex-col md:flex-row justify-between py-11 px-5 md:px-10">
           <div className="md:w-1/2 mt-10 mb-10 md:mb-0 order-last md:order-1">
             <h2 className="lg:text-6xl md:text-4xl text-2xl text-center md:text-left">
@@ -23,12 +23,20 @@ const Hero = () => {
               <a
                 href="/#"
                 className="inline-block py-2 px-3 md:py-3 md:px-6 md:text-lg rounded-xl bg-purple-700 text-purple-300 mr-3 hover:bg-purple-600 hover:text-white hover:border-purple-600"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleClick('contact');
+                }}
               >
                 Get in touch
               </a>
               <a
                 href="/#"
                 className="inline-block py-2 px-3 md:py-3 md:px-6 md:text-lg rounded-xl bg-transparent border border-gray-600 hover:bg-purple-600 hover:text-white hover:border-purple-600"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleClick('about');
+                }}
               >
                 Learn more
               </a>

@@ -1,10 +1,10 @@
 import React from 'react';
 import ThembaImage from '../images/ThembaNkosi.jpg';
 
-const Team = (props) => {
+const Team = ({ refs }) => {
   return (
     <>
-      <section className="">
+      <section className="" ref={refs} id="team">
         <div className="md:px-32 py-11 flex flex-col justify-center items-center md:mt-10  ">
           <div className="p-3 w-2/3 break-words text-center">
             <h3 className="text-2xl font-semibold">Meet our team</h3>
