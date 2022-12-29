@@ -1,4 +1,5 @@
 import React from 'react';
+import ThembaImage from '../images/ThembaNkosi.jpg';
 
 const Team = (props) => {
   return (
@@ -49,7 +50,7 @@ const Team = (props) => {
                   srcset=""
                 />
               </div>
-              <h3 className="text-2xl">John Doe</h3>
+              <h3 className="text-2xl">Gift Mkyelu</h3>
               <h3 className="text-purple-500">Senior Developer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
@@ -68,12 +69,12 @@ const Team = (props) => {
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
                 <img
                   className="object-center object-cover rounded-full h-20 w-20 md:h-48 md:w-48"
-                  src="https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551__340.jpg"
-                  alt=""
+                  src={ThembaImage}
+                  alt="Themba Nkosi"
                   srcset=""
                 />
               </div>
-              <h3 className="text-2xl">John Doe</h3>
+              <h3 className="text-2xl">Themba Nkosi</h3>
               <h3 className="text-purple-500">Senior Developer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
