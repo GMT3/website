@@ -21,13 +21,13 @@ const Team = (props) => {
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
                 <img
                   className="object-center object-cover rounded-full h-20 w-20 md:h-48 md:w-48"
-                  src="https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445__340.jpg"
+                  src="https://media.licdn.com/dms/image/C4D03AQEn_2YEDfrGxg/profile-displayphoto-shrink_200_200/0/1626291486591?e=1677715200&v=beta&t=mQbXBj68lXggd4av4Z8NWgX3X-zBsNakp1-cI-HNPlM"
                   alt=""
                   srcset=""
                 />
               </div>
               <h3 className="text-2xl">Martin Kululanga</h3>
-              <h3 className="text-purple-500">Senior Developer</h3>
+              <h3 className="text-purple-500">Chief Executive Officer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -39,7 +39,7 @@ const Team = (props) => {
                 />
               </div>
               <h3 className="text-2xl">Tinga Chingeni</h3>
-              <h3 className="text-purple-500">Senior Developer</h3>
+              <h3 className="text-purple-500">Chief Operating Officer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -63,7 +63,7 @@ const Team = (props) => {
                 />
               </div>
               <h3 className="text-2xl">Takondwa Ndawala</h3>
-              <h3 className="text-purple-500">Senior Developer</h3>
+              <h3 className="text-purple-500">Mobile Developer</h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -75,7 +75,9 @@ const Team = (props) => {
                 />
               </div>
               <h3 className="text-2xl">Themba Nkosi</h3>
-              <h3 className="text-purple-500">Senior Developer</h3>
+              <h3 className="text-purple-500">
+                Monitoring and Evaluation Officer
+              </h3>
             </div>
           </div>
         </div>
