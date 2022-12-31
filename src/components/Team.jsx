@@ -28,7 +28,7 @@ const Team = ({ refs }) => {
               </div>
               <h3 className="text-2xl">Martin Kululanga</h3>
               <h3 className="text-purple-500">Chief Executive Officer</h3>
-              <h3 className="text-purple-500"><i><a href="https://martin.gmt3.tech" target="_blank">Learn More</a></i></h3>
+              <h3 className="text-purple-500"><i><a href="https://martin.gmt3.tech" target="_blank" rel="noreferrer">Learn More</a></i></h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -41,7 +41,7 @@ const Team = ({ refs }) => {
               </div>
               <h3 className="text-2xl">Tinga Chingeni</h3>
               <h3 className="text-purple-500">Chief Operating Officer</h3>
-              <h3 className="text-purple-500"><i><a href="https://tinga.gmt3.tech" target="_blank">Learn More</a></i></h3>
+              <h3 className="text-purple-500"><i><a href="https://tinga.gmt3.tech" target="_blank" rel="noreferrer">Learn More</a></i></h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -54,7 +54,7 @@ const Team = ({ refs }) => {
               </div>
               <h3 className="text-2xl">Gift Mkyelu</h3>
               <h3 className="text-purple-500">Senior Developer</h3>
-              <h3 className="text-purple-500"><i><a href="https://gift.gmt3.tech" target="_blank">Learn More</a></i></h3>
+              <h3 className="text-purple-500"><i><a href="https://gift.gmt3.tech" target="_blank" rel="noreferrer">Learn More</a></i></h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -67,7 +67,7 @@ const Team = ({ refs }) => {
               </div>
               <h3 className="text-2xl">Takondwa Ndawala</h3>
               <h3 className="text-purple-500">Mobile Developer</h3>
-              <h3 className="text-purple-500"><i><a href="https://tk.gmt3.tech" target="_blank">Learn More</a></i></h3>
+              <h3 className="text-purple-500"><i><a href="https://tk.gmt3.tech" target="_blank" rel="noreferrer">Learn More</a></i></h3>
             </div>
             <div className="text-center flex flex-col items-center justify-center">
               <div className="rounded-full bg-gray-300 h-20 w-20 md:h-48 md:w-48 mb-5">
@@ -80,7 +80,7 @@ const Team = ({ refs }) => {
               </div>
               <h3 className="text-2xl">Themba Nkosi</h3>
               <h3 className="text-purple-500">Monitoring and Evaluation Officer</h3>
-              <h3 className="text-purple-500"><i><a href="https://themba.gmt3.tech" target="_blank">Learn More</a></i></h3>
+              <h3 className="text-purple-500"><i><a href="https://themba.gmt3.tech" target="_blank" rel="noreferrer">Learn More</a></i></h3>
             </div>
           </div>
         </div>
