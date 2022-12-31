@@ -78,7 +78,7 @@ const Team = ({ refs }) => {
                   srcset=""
                 />
               </div>
-              <h3 className="text-2xl">Themba Nkosi</h3>
+              <h3 className="text-2xl">Themba Ngulube</h3>
               <h3 className="text-purple-500">Monitoring and Evaluation Officer</h3>
               <h3 className="text-purple-500"><i><a href="https://themba.gmt3.tech" target="_blank" rel="noreferrer">Learn More</a></i></h3>
             </div>
