@@ -8,7 +8,7 @@ const ToTopButton = ({ topBtn, handleClick }) => {
         className={
           !topBtn
             ? 'hidden'
-            : 'fixed bottom-8 right-5 h-14 w-14 bg-purple-700 rounded-full drop-shadow-lg flex justify-center items-center'
+            : 'fixed bottom-8 right-5 h-14 w-14 bg-purple-700 hover:bg-purple-900 rounded-full drop-shadow-lg flex justify-center items-center'
         }
         onClick={() => {
           handleClick('home');
