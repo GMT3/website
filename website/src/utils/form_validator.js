@@ -38,7 +38,7 @@ export const validateInput = (name, value) => {
         hasError = true;
         error = 'Email is required';
       } else if (
-        !/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(value)
+        !/^([a-z\d.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(value)
       ) {
         hasError = true;
         error = 'Invalid Email. Please enter a valid email';
