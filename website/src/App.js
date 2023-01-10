@@ -8,6 +8,7 @@ import Team from './components/Team';
 import Technologies from './components/Technologies';
 import Footer from './components/Footer';
 import ToTopButton from './components/ToTopButton';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   const aboutRef = useRef(),
@@ -72,6 +73,10 @@ function App() {
 
       {/* To Top Button */}
       <ToTopButton topBtn={topBtn} handleClick={handleClick} />
+
+      {/* adding toast notifications
+       */}
+      <Toaster />
     </div>
   );
 }
